@@ -565,7 +565,7 @@ if __name__ == '__main__':
 #    MASS = 500000
     
     (dens_gml, pressure_mpa, gibbs_evgmla3, helm_evgmla3) = \
-    np.loadtxt('../ethane_330K_from0_01to70mpa.txt')
+    np.loadtxt('data/ethane_330K_from0_01to70mpa.txt')
     density_from_pressure = \
     get_density_from_pressure_wrapper(dens_gml, pressure_mpa)
     gibbs_energy_from_rho_argon = \
@@ -579,22 +579,4 @@ if __name__ == '__main__':
     search_grid = minimize_over_radius(MASS)
     
     print('Total time: {} seconds'.format(time.time() - start_time))
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
-    
     
