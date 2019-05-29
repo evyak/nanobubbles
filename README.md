@@ -15,3 +15,9 @@ python bubble.py <mass>
 ```
 
 This calculates equilibrium bubble with given trapped mass of substance. It stores information of searching algorithm in &lt;mass>.csv file, and the information of equilibrium bubble in data.csv.
+
+## Requirements
+
+* python 3
+* numpy == 1.15.4
+* scipy == 1.1.0
