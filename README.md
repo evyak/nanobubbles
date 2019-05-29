@@ -14,4 +14,4 @@ The usage is as simple as
 python bubble.py <mass>
 ```
 
-This calculates equilibrium bubble with trapped &lt;mass> of substance. It stores information of searching in <mass>.csv file, and the information of equilibrium bubble in data.csv.
+This calculates equilibrium bubble with given trapped mass of substance. It stores information of searching algorithm in &lt;mass>.csv file, and the information of equilibrium bubble in data.csv.
